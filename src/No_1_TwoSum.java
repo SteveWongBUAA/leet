@@ -5,12 +5,13 @@ import java.util.Map;
  * @author Steve
  * Created on 2020-04
  *
+ * https://leetcode-cn.com/problems/two-sum/
  * 使用map，key是target-当前的数组的值，value是当前数组的下标。
  * 遍历数组，查到符合的key则返回匹配的两个数下标。
  * 时间复杂度O(n)
  * 空间复杂度O(n)
  */
-public class TwoSum {
+public class No_1_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         Map<Integer, Integer> map = new HashMap<>();
