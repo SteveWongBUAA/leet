@@ -10,6 +10,9 @@ public class ListNode {
         val = x;
     }
 
+    ListNode() {
+    }
+
     public ListNode invertList(ListNode l) {
         ListNode pre = null;
         ListNode now = l;
